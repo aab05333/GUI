@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>801</width>
+     <height>501</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#widget{background-color:rgb(44, 47, 51)}</string>
+   </property>
+   <widget class="QFrame" name="loginCard">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>140</y>
+      <width>400</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame#loginCard {
+    background-color: #23272A;
+    border-radius: 20px;
+}
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>Raised</enum>
+    </property>
+    <widget class="QPushButton" name="cancelReservationButton">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>381</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+     QPushButton {
+       font: 700 12pt &quot;Segoe UI&quot;;
+       color: white;
+       background-color: #5865F2;
+       border-radius: 12px;
+     }
+     QPushButton:hover {
+       background-color: #4752C4;
+     }
+    </string>
+     </property>
+     <property name="text">
+      <string>Manage Halls</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="cancelReservationButton_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>200</y>
+       <width>381</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+     QPushButton {
+       font: 700 12pt &quot;Segoe UI&quot;;
+       color: white;
+       background-color: rgb(255, 0, 0);
+       border-radius: 12px;
+     }
+     QPushButton:hover {
+       background-color: rgb(199, 0, 0);
+     }
+    </string>
+     </property>
+     <property name="text">
+      <string>Log Out</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="cancelReservationButton_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>80</y>
+       <width>381</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+     QPushButton {
+       font: 700 12pt &quot;Segoe UI&quot;;
+       color: white;
+       background-color: #5865F2;
+       border-radius: 12px;
+     }
+     QPushButton:hover {
+       background-color: #4752C4;
+     }
+    </string>
+     </property>
+     <property name="text">
+      <string>Veiw All Reservation</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="cancelReservationButton_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>140</y>
+       <width>381</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+     QPushButton {
+       font: 700 12pt &quot;Segoe UI&quot;;
+       color: white;
+       background-color: #5865F2;
+       border-radius: 12px;
+     }
+     QPushButton:hover {
+       background-color: #4752C4;
+     }
+    </string>
+     </property>
+     <property name="text">
+      <string>Veiw Transactions</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="titleLabel">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>40</y>
+      <width>400</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 900 16pt &quot;Segoe UI&quot;; color: white;</string>
+    </property>
+    <property name="text">
+     <string>Welcome Admin</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
